@@ -1,0 +1,17 @@
+{
+  "name": "course-api-project",
+  "version": "1.0.0",
+  "description": "Course CRUD API using Node.js, Express and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
